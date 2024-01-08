@@ -27,6 +27,12 @@ namespace DesafioPOO.Models
             Console.WriteLine("Recebendo ligação...");
         }
 
+        public void ExibirEspecificação() {
+
+            Console.WriteLine($"Espeficicações do aparelho: \n Modelo: {Model} \n Armazenamento: {Memory} GB \n Número: {Number}");
+
+        }
+
         public abstract void InstalarAplicativo(string nomeApp);
     }
 }
