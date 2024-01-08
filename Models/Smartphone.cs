@@ -4,9 +4,9 @@ namespace DesafioPOO.Models
     {
         public string Number { get; set; }
         // TODO: Implementar as propriedades faltantes de acordo com o diagrama
-        public string Model { get; set; }
-        public string IMEI { get; set; }
-        public int Memory { get; set; }
+        private string Model { get; set; }
+        private string IMEI { get; set; }
+        private int Memory { get; set; }
 
         public Smartphone(string number, string model, string imei, int memory)
         {
