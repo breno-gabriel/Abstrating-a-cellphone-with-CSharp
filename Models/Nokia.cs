@@ -12,7 +12,8 @@ namespace DesafioPOO.Models
         // TODO: Sobrescrever o método "InstalarAplicativo"
         public override void InstalarAplicativo(string nomeApp)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Acessando a Microsoft Store.............");
+            Console.WriteLine($"Instalando {nomeApp}");
         }
 
     }
